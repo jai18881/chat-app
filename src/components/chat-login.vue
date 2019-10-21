@@ -1,7 +1,7 @@
 <template>
     <div class="chat-login">
         <input ref="userName" type="text" v-model="inputValue" placeholder="Type your username...." @keyup.enter.exact="submit">
-        <button @click="submit">Join the Doordash Chat!</button>
+        <button @click="submit">Join the People Chat!</button>
     </div>
 </template>
 <script>
